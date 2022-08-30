@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gross/arm/stm32-cmake/stm32-lcd
+CMAKE_SOURCE_DIR = $(CURDIR)
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gross/arm/stm32-cmake/stm32-lcd
+CMAKE_BINARY_DIR = $(CURDIR)/build
 
 #=============================================================================
 # Targets provided globally by CMake.
